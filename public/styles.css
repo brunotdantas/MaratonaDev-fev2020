@@ -122,7 +122,7 @@ form input{
 }
 
 form input::placeholder{
-    color: #ffffffaa;
+    color:black;
 }
 
 form button {
@@ -168,6 +168,7 @@ main .donors {
 
 .donor p {
     margin-top: 24px;
+    margin-bottom: 60px;
     font-size: 14px;
 }
 
