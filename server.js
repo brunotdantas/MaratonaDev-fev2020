@@ -85,7 +85,7 @@ server.post('/', function(req,res){
 
 
 const port = normalizePort(process.env.PORT || '3000');
-
+server.listen(port);
 console.log('API rodando na porta ' + port);
 
  function normalizePort(val) {
