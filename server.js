@@ -1,13 +1,16 @@
 const express = require('express');
 const server = express();
 
+// Environment variables
+const dotenv = require('dotenv');
+dotenv.config();
+
 // nunjucks = template engine // permite usar {{}} 
 const nunjucks = require("nunjucks");
 nunjucks.configure('./',{
     express: server,
     noCache: true 
 })
-
 
 // configurações do servidor  
 
@@ -20,11 +23,12 @@ nunjucks.configure('./',{
     // config db
     const Pool = require('pg').Pool;
     const db = new Pool({
-        user:       'postgres',
-        password:   'root',
-        host:       'localhost',
-        port:       5432,
-        database:   'doe'
+        user: process.env.DB_USER,
+        password:process.env.DB_PASS,
+        host:process.env.DB_HOST,
+        port:  process.env.DB_PORT,
+        database:process.env.DB_DB_NAME,
+        ssl: true
     })
 
 

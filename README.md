@@ -4,6 +4,8 @@ Esse repositório foi criado para logar progresso das aulas da maratona dev que 
 ## O projeto  
 O objetivo deste projeto é criar um site que informe sobre a doação de sangue e que permita a inclusão de pessoas que doaram sangue
 
+![demo_doe](https://user-images.githubusercontent.com/19207320/75408341-3acd0280-58f4-11ea-8331-dedd8f59ba4a.gif)
+
 ## Tecnologias praticadas com esse projeto e onde foram usadas 
 
 ### Frontend 
