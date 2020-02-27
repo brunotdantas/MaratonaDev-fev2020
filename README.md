@@ -31,3 +31,6 @@ O objetivo deste projeto é criar um site que informe sobre a doação de sangue
   - Postgres / Postbird  
     - Criação da estrutura de banco de dados 
     - Uso do postbird para manipulação do banco criado 
+
+
+Você pode visualizar o app funcionando em: [HEROKU](https://doe-sangue2020.herokuapp.com/)
