@@ -2,7 +2,7 @@
   "name": "MaratonaDev-fev2020",
   "version": "1.0.0",
   "description": "",
-  "main": "scripts.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
